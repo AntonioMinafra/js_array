@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arrayOfNumbers = [20, 40 , 120, 60 ,90 ];
+        let maxNumber= 0;
+        let position = 0;
+
+        for(let i=0; i<=arrayOfNumbers.length-1; i++){
+            
+            if(arrayOfNumbers[i] > maxNumber){
+                maxNumber = arrayOfNumbers[i];
+                position = i
+            }; 
+        };
+        console.log("numero massimo nell array", maxNumber);
+        console.log('cella della posizione numero', position);
+       
+       
+
+    </script>
+</body>
+</html>
